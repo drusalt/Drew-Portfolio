@@ -1,0 +1,177 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: 00000;
+}
+
+/**** GRID ****/
+
+.full-width {
+	width:  1200px;
+	margin:  0 auto;
+	overflow:  auto;
+
+}
+
+.half-width {
+	float: left;
+	width:  600px;
+	overflow:  auto;
+
+}
+
+/***** HEADER *****/
+
+
+header h1 {
+	width:  span;
+	clear:  both;
+	font-size: 30px;
+	line-height: 23px;
+	padding:  25px 0 25px 0;
+
+}
+
+header h1 span {
+	color: black;
+}
+
+.rogue {
+	color:  #77a466;
+}
+
+nav {
+	float:  right;
+	padding:  30px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #77a466;
+	line-height: 23px;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	padding-left:  20px;
+	
+}
+
+/***** WELCOME *****/
+
+#welcome h3 {
+	font-size: 18px;
+	line-height: 23px;
+	color: #77a466;
+	font-weight:  700;
+}
+
+#welcome p {
+	font-size:  16px;
+	line-height:  25px;
+}
+
+/**** SPECIALS ****/
+
+.bottom-section {
+	width:  1200px;
+	margin:  0 auto;
+	overflow:  auto;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee; 
+}
+
+.section-one h4 {
+	padding: 10px 0;
+}
+
+.menu {
+	
+	list-style: none;
+	padding: 0;
+}
+
+.menu li {
+	padding: 10px 0;
+	color: #77a466;
+}
+
+
+
+.section-one h4 {
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+
+.section-two {
+	border-right:  1px solid #eee;
+	border-left: 1px solid #eee;
+}
+
+.section-two h4 {
+	font-size: 12px;
+	line-height: 25px;
+	padding: 10px 0;
+
+}
+
+.section-two .reviews {
+	font-size: 16px;
+	line-height: 21px;
+	color: #333;
+
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 30px;
+}
+
+.reviews {
+	font-size: 16px;
+	line-height: 21px;
+}
+.section-three h4 {
+	font-size: 12px;
+	line-height: 25px;
+	padding: 10px 20px;
+}
+
+.section-three .address {
+	font-size: 16px;
+	line-height: 24px;
+	padding: 10px 20px;
+
+}
+
+/****** POWERED ******/
+
+footer {
+	text-align: center;
+	clear: both;
+	border-top: 1px solid #eee;
+	width:  1200px;
+	margin:  0 auto;
+}
+
+footer span {
+	color: #77a466;
+	font-style: italic;
+	font-weight:  500;
+	font-family: 'Playball', cursive;
+	text-transform: lowercase;
+	
+
+}
