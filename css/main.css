@@ -101,6 +101,10 @@ nav ul li a {
 	color: white;
 }
 
+a:hover {
+	color: #ff6666;
+}
+
 
 
 
@@ -111,12 +115,13 @@ nav ul li a {
 
 
 #portfolio {
-	height: 1800px;
+	height: 2600px;
 	padding: 100px 0 0 100px;
 }
 
 #portfolio h1 {
 	margin:  0 0 100px 0;
+
 }
 
 #portfolio h1 {
@@ -126,6 +131,10 @@ nav ul li a {
 	padding-left: 455px;
 	font-weight: 100;
 }
+
+#portfolio h1:hover {
+	color: yellow;
+}  
 
 
 
@@ -164,8 +173,28 @@ nav ul li a {
 }
 
 #portfolio #jubilee {
-	padding: 100px 0 40px 0;
+	padding: 120px 0 40px 0;
+
 }
+
+
+.tailwind .tw-bottom {
+	padding-bottom: 135px;
+	padding-right: 30px;
+}
+
+#tailwind {
+	padding-bottom: 60px;
+}
+
+#retreat {
+	padding-bottom: 80px;
+}
+
+.bottom-retreat {
+	padding-bottom:100px;
+}
+
 
 
 
